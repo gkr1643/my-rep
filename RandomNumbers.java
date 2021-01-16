@@ -20,7 +20,8 @@ public class RandomNumbers {
 	}
 	System.out.println("Random integers before removing duplicates");
 		System.out.println("Random integers before removing duplicates");
-	System.out.println(Arrays.toString(intArray)); // print the integer arrays in string format with tostring 
+		System.out.println("Random integers before removing duplicates");
+			System.out.println(Arrays.toString(intArray)); // print the integer arrays in string format with tostring 
 	System.out.println("Random integers after remoing Duplicates in the ascending order");
 	HashSet<Integer> se = new LinkedHashSet<Integer>(); // createing a hash set to hold the integers
 	for(int i=0;i<intArray.length;i++)
