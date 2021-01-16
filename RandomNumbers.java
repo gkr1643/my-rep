@@ -10,7 +10,7 @@ import java.util.Set;
 
 
 public class RandomNumbers {
-	//public static void main(String [] args)
+	public static void main(String [] args)
 	{
 	Random rd = new Random();// Random class to generate random numbers
 	Integer[] intArray = new Integer[100];// declaration of array to store 100 integers
@@ -19,6 +19,7 @@ public class RandomNumbers {
 
 	}
 	System.out.println("Random integers before removing duplicates");
+		System.out.println("Random integers before removing duplicates");
 	System.out.println(Arrays.toString(intArray)); // print the integer arrays in string format with tostring 
 	System.out.println("Random integers after remoing Duplicates in the ascending order");
 	HashSet<Integer> se = new LinkedHashSet<Integer>(); // createing a hash set to hold the integers
